@@ -1,0 +1,23 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 4.8vw;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.result p {
+  color: var(--blue);
+  margin: -0.9vw 0 -0.9vw;
+}
+
+.result p span {
+  color: var(--off-black);
+}
+
+@media screen and (max-width: 768px) {
+  .result {
+    font-size: 14vw;
+  }
+}
